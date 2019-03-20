@@ -5,6 +5,6 @@ def oxford_comma(array)
     array.join(" and ")
       elsif array.length == 3
       array.join(", ")
-      string.insert(2, "and")
+      String.insert(2, "and")
   end
 end
